@@ -6,6 +6,7 @@
 body {
   font-family: "netflix-font-regular", sans-serif;
   color: white;
+  background-color: #2d2d2d;
 }
 
 .bg {
@@ -119,18 +120,63 @@ input {
 }
 
 .page {
-  height: 60vh;
+  margin-top: 0.5%;
+  height: 80vh;
   width: 100%;
   background-color: black;
   display: flex;
-  gap: 40px;
+  gap: 2%;
+  justify-content: center;
 }
 .data {
-  margin-top: 15%;
-  margin-left: 5%;
+  height: 30vh;
+  width: 35vw;
+
+  margin-top: 10%;
 }
 .image img {
-  margin-top: 20%;
-  height: 300px;
-  width: 400px;
+  margin-top: 10%;
+  height: 400px;
+  width: 500px;
+}
+.data label {
+  font-size: 25px;
+}
+.queries {
+  height: 120vh;
+
+  width: 100%;
+  padding-top: 5%;
+  background-color: black;
+  margin-top: 1%;
+  justify-content: center;
+  text-align: center;
+}
+
+.questions {
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+.ques {
+  margin-top: 1%;
+  height: 10vh;
+  width: 70vw;
+  background-color: #2d2d2d;
+  font-size: 20px;
+}
+.box {
+  margin-left: 5%;
+}
+.box p {
+  font-size: 20px;
+}
+.box input {
+  margin-top: 5%;
+}
+.footer {
+  background-color: black;
+  margin-top: 0.5%;
+  height: 70vh;
+  width: 100%;
 }
