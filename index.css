@@ -117,3 +117,20 @@ input {
   font-size: 20px;
   font-weight: bold;
 }
+
+.page {
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 40px;
+}
+.data {
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.image img {
+  margin-top: 20%;
+  height: 300px;
+  width: 400px;
+}
