@@ -2,8 +2,9 @@
   padding: 0%;
   margin: 0;
 }
+
 body {
-  font-family: sans-serif;
+  font-family: "netflix-font-regular", sans-serif;
   color: white;
 }
 
@@ -11,19 +12,19 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
-
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4df9-4946-9920-a4bd55f2e50b/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
     no-repeat center center/cover;
 }
-.bg ::after {
+
+.bg::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.2);
+
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo img {
@@ -33,18 +34,19 @@ body {
   position: absolute;
   margin-top: 2%;
 }
+
 nav {
   display: flex;
   margin-left: 10%;
 }
+
 .options {
   position: relative;
-  color: white;
+  color: transparent;
   display: flex;
   margin-top: 2%;
   margin-left: 70%;
-  gap: 20px;
-  position: absolute;
+  gap: 60px;
 }
 
 .login {
@@ -52,31 +54,66 @@ nav {
   position: absolute;
   color: white;
 }
+
 button.signin {
-  background-color: red;
+  background-color: #e50914;
   z-index: 2;
   height: 5vh;
   width: 6vw;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   font-size: bold;
   border: none;
-  margin-left: 150%;
+  margin-left: 120%;
   position: absolute;
+}
+header {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  z-index: 500;
+  margin-top: 15%;
+  color: white;
+  position: relative;
 }
 #lang {
   z-index: 2;
   height: 5vh;
-
+  width: 8vw;
   margin-right: 10%;
   border: none;
+  background-color: transparent;
+  border: 1px solid gray;
+  color: gray;
 }
-
 h1 {
-  margin-top: 20%;
-  margin-left: 18%;
-  color: white;
-  position: relative;
-  z-index: 2;
+  font-weight: 800;
   font-size: 50px;
+}
+.para {
+  font-size: 20px;
+  margin-top: 3%;
+  font-weight: 500;
+}
+p {
+  margin-top: 2%;
+}
+.login {
+  margin-left: 20%;
+  margin-top: 3%;
+}
+input {
+  height: 8vh;
+  width: 26vw;
+  background-color: transparent;
+}
+.login button {
+  height: 8vh;
+  width: 12vw;
+  border-radius: 5px;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
