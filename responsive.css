@@ -1,0 +1,103 @@
+@media (max-width: 1280px) {
+  .bg {
+    height: 50vh;
+    width: 100%;
+  }
+  header {
+    margin-top: 10%;
+  }
+  .login button {
+    height: 5vh;
+  }
+  input {
+    height: 5vh;
+  }
+  .page {
+    height: 45vh;
+  }
+  .ques {
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 480px) {
+    body {
+      height: 100vh;
+      width: 100vw;
+    }
+    .bg {
+      height: 80vh;
+      width: 100%;
+    }
+    #lang {
+      width: 15vw;
+    }
+    .options {
+      margin-left: 50%;
+    }
+    button.signin {
+      width: 20vw;
+      font-size: 15px;
+    }
+    .para {
+      font-size: 20px;
+    }
+    input {
+      height: 8vh;
+      width: 30vw;
+    }
+    button.start {
+      height: 8vh;
+      width: 30vw;
+    }
+    .page {
+      padding-left: 1%;
+      height: 80vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .data h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+    .data label {
+      font-size: 20px;
+      text-align: center;
+      display: flex;
+    }
+
+    .image img {
+      margin-top: 1%;
+      height: 300px;
+      width: 400px;
+    }
+    .queries h1 {
+      font-size: 25px;
+    }
+    .queries {
+      width: 100vw;
+    }
+    .ques {
+      margin-top: 5%;
+      height: 6vh;
+      width: 80vw;
+      font-size: 20px;
+    }
+    .box p {
+      font-size: 10px;
+    }
+    .box input {
+      height: 5vh;
+      width: 30vw;
+      margin-top: 5%;
+    }
+    .box button {
+      height: 5vh;
+      width: 20vw;
+      font-size: 15px;
+    }
+    .footer {
+      width: 100vw;
+    }
+  }
+}

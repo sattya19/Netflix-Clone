@@ -122,15 +122,17 @@ input {
 .page {
   margin-top: 0.5%;
   height: 80vh;
-  width: 100%;
+  width: 90%;
   background-color: black;
   display: flex;
   gap: 2%;
   justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .data {
-  height: 30vh;
-  width: 35vw;
+  /* height: 30vh;
+  width: 35vw; */
 
   margin-top: 10%;
 }
