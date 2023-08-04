@@ -1,103 +1,174 @@
+/* For screens less than or equal to 1280px width */
 @media (max-width: 1280px) {
   .bg {
     height: 50vh;
-    width: 100%;
+    width: 80%;
   }
+
   header {
     margin-top: 10%;
   }
-  .login button {
+
+  .login button,
+  input.email {
     height: 5vh;
   }
-  input {
-    height: 5vh;
-  }
+
   .page {
     height: 45vh;
   }
+
   .ques {
     font-size: 30px;
   }
-  @media only screen and (max-width: 480px) {
-    body {
-      height: 100vh;
-      width: 100vw;
-    }
-    .bg {
-      height: 80vh;
-      width: 100%;
-    }
-    #lang {
-      width: 15vw;
-    }
-    .options {
-      margin-left: 50%;
-    }
-    button.signin {
-      width: 20vw;
-      font-size: 15px;
-    }
-    .para {
-      font-size: 20px;
-    }
-    input {
-      height: 8vh;
-      width: 30vw;
-    }
-    button.start {
-      height: 8vh;
-      width: 30vw;
-    }
-    .page {
-      padding-left: 1%;
-      height: 80vh;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .data h1 {
-      font-size: 40px;
-      text-align: center;
-    }
-    .data label {
-      font-size: 20px;
-      text-align: center;
-      display: flex;
-    }
+}
 
-    .image img {
-      margin-top: 1%;
-      height: 300px;
-      width: 400px;
-    }
-    .queries h1 {
-      font-size: 25px;
-    }
-    .queries {
-      width: 100vw;
-    }
-    .ques {
-      margin-top: 5%;
-      height: 6vh;
-      width: 80vw;
-      font-size: 20px;
-    }
-    .box p {
-      font-size: 10px;
-    }
-    .box input {
-      height: 5vh;
-      width: 30vw;
-      margin-top: 5%;
-    }
-    .box button {
-      height: 5vh;
-      width: 20vw;
-      font-size: 15px;
-    }
-    .footer {
-      width: 100vw;
-    }
+/* For screens less than or equal to 780px width */
+@media (max-width: 780px) {
+  .bg {
+    height: 60vh;
+    width: 90%;
+  }
+
+  header {
+    margin-top: 15%;
+  }
+
+  .login button,
+  input.email {
+    height: 4.5vh;
+  }
+
+  .page {
+    height: 50vh;
+  }
+
+  .data h1 {
+    font-size: 28px;
+  }
+
+  .data label {
+    font-size: 16px;
+  }
+
+  .ques {
+    font-size: 24px;
+  }
+
+  .box p {
+    font-size: 14px;
+  }
+
+  .box input.email {
+    height: 4vh;
+    width: 90%;
+  }
+
+  .box button.start {
+    height: 4.5vh;
+    width: 50%;
+    font-size: 14px;
+  }
+}
+
+/* For screens less than or equal to 480px width */
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  .bg {
+    height: 70vh;
+    width: 90%;
+  }
+
+  .logo img {
+    height: 25px;
+    margin-top: 5%;
+  }
+
+  .options {
+    margin-left: 60%;
+    gap: 50px;
+    margin-top: 5%;
+  }
+
+  button.signin {
+    margin-left: 120%;
+    font-size: 10px;
+    width: 10vw;
+  }
+
+  header {
+    margin-top: 15%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+
+  input.email {
+    height: 4.5vh;
+    width: 80%;
+  }
+
+  .login button.start {
+    height: 4.5vh;
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .page {
+    height: auto;
+    width: 80%;
+  }
+
+  .image img {
+    height: 150px;
+    width: 80%;
+  }
+  .data {
+    width: 60%;
+  }
+
+  .data h1 {
+    font-size: 20px;
+  }
+
+  .data label {
+    font-size: 10px;
+  }
+  .queries {
+    width: 90%;
+  }
+
+  .ques {
+    height: auto;
+
+    font-size: 20px;
+  }
+
+  .box p {
+    font-size: 10px;
+  }
+
+  .box input.email {
+    height: 4vh;
+    width: 40%;
+  }
+
+  .box button.start {
+    height: 4.5vh;
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .footer {
+    height: 60px;
+    width: 90%;
   }
 }
