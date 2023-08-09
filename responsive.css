@@ -73,13 +73,9 @@
 
 /* For screens less than or equal to 480px width */
 @media (max-width: 480px) {
-  body {
-    width: 100%;
-  }
-
   .bg {
     height: 70vh;
-    width: 90%;
+    width: 100%;
   }
 
   .logo img {
@@ -110,6 +106,11 @@
   .para {
     font-size: 16px;
   }
+  .login {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
 
   input.email {
     height: 4.5vh;
@@ -118,13 +119,12 @@
 
   .login button.start {
     height: 4.5vh;
-    width: 60%;
+    width: 40%;
     font-size: 14px;
   }
 
   .page {
     height: auto;
-    width: 80%;
   }
 
   .image img {
@@ -141,9 +141,6 @@
 
   .data label {
     font-size: 10px;
-  }
-  .queries {
-    width: 90%;
   }
 
   .ques {
@@ -169,6 +166,5 @@
 
   .footer {
     height: 60px;
-    width: 90%;
   }
 }
