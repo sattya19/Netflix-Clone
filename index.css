@@ -53,7 +53,7 @@ nav {
 }
 
 .login {
-  z-index: 2;
+  z-index: 500;
   position: absolute;
   color: white;
   margin-left: 20%;
