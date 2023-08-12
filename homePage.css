@@ -10,13 +10,37 @@ body {
   font-family: "netflix-font-regular", sans-serif;
   background-color: #141414;
 }
+.tittle {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 60%;
+}
 
 .banner img {
   height: 90vh;
   width: 100vw;
   margin-top: 3%;
 }
+.tittle img {
+  height: 30vh;
+}
+.tittle .label {
+  height: 20vh;
+  width: 35vw;
+  margin-top: 5%;
 
+  color: white;
+}
+
+button {
+  height: 6vh;
+  width: 8vw;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
 .logo img {
   height: 25px;
   width: auto;
@@ -47,9 +71,13 @@ nav {
 }
 .search {
   margin-left: 10%;
+  width: 30vw;
+  text-align: center;
 }
+
 .search ul li {
   display: inline-flex;
-  margin-top: 10%;
-  font-size: 15px;
+  margin-top: 5%;
+  font-size: 18px;
+  margin-left: 5%;
 }
