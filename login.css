@@ -21,12 +21,39 @@ h1 {
   gap: 50px;
   display: flex;
 }
+.circle {
+  height: 2vh;
+  width: 1vw;
+
+  border-radius: 50%;
+  background-color: white;
+}
+.circles {
+  display: flex;
+  gap: 20px;
+}
+.mouth {
+  width: 80px;
+  margin-top: 10%;
+
+  height: 10px;
+  background-color: white;
+  /* border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; */
+
+  left: calc(50% - 30px);
+}
 button.user {
   height: 20vh;
   width: 10vw;
   background: linear-gradient(to bottom, #054186, #519aed);
   border-radius: 5px;
   border: none;
+
+  justify-content: center;
+  align-items: center;
 }
 button.user:hover {
   border: 4px white solid;
