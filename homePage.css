@@ -17,8 +17,8 @@ body {
 }
 
 .banner img {
-  height: 90vh;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   margin-top: 3%;
 }
 .tittle img {
@@ -61,8 +61,13 @@ nav {
 
 .options ul li {
   display: inline-flex;
-  font-size: 14px;
-  margin-left: 1%;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 2%;
+}
+.options ul li:hover {
+  color: white;
+  transform: scale(1.2);
 }
 .options {
   width: 50vw;
@@ -80,4 +85,31 @@ nav {
   margin-top: 5%;
   font-size: 18px;
   margin-left: 5%;
+}
+/* .genre {
+  height: 100vh;
+  width: 100%;
+} */
+.genre h1 {
+  margin-left: 5%;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+.carousel {
+  display: flex;
+  margin-left: 4%;
+}
+.card {
+  margin-left: 0.5%;
+  margin-top: 1%;
+  transition: 0.4s;
+}
+.card img {
+  border-radius: 1px;
+  height: 20vh;
+  width: auto;
+}
+.card:hover {
+  transform: scale(1.6);
 }
