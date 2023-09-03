@@ -167,4 +167,8 @@
   .footer {
     height: 60px;
   }
+
+  button.user {
+    width: 18vw;
+  }
 }
